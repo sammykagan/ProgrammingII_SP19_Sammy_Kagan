@@ -1,5 +1,8 @@
 #FORMATTING PROBLEM SET (12 PTS)
 
+# Sammy Kagan
+# https://github.com/fwparkercode/Programming2_SP19
+
 '''
 PROBLEM 1 (2pts)
 Use {}.format() to print 0.000321192 in scientific notation to two decimals
