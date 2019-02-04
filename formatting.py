@@ -1,6 +1,6 @@
 #FORMATTING PROBLEM SET (12 PTS)
 
-# Sammy Kagan 
+# Sammy Kagan
 # https://github.com/fwparkercode/Programming2_SP19
 
 '''
