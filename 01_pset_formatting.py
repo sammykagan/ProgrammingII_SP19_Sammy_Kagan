@@ -80,6 +80,6 @@ Use print formatting to EXACTLY match the following output:
 
 for i in range (1,21):
     print ("1/" + str(i) + " = " + str("{:.3}".format(1/i)))
-    
+
 
 # YAH YAH YAH YAH
