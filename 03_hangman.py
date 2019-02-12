@@ -74,11 +74,12 @@ HANGMANPICS = ['''
 import random
 
 #Create the list of words and establish the word the player is trying to solve
-word_list = ["Lindsay", "FWPMUN", "Weekly", "Avani", "Colonel", "Klobuchar"]
+word_list = ["SA", "SAM", "SAMM", "SAMMY", "SAMMYK", "SAMMYKA"]
 word = (word_list[random.randrange(0, len(word_list))])
 alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 available_letters = alphabet
-
+word_list = []
+your_letters = []
 #Let's begin motherheckers
 print("\nWelcome to HANGMAN!\n")
 print("Here's your current board")
@@ -87,17 +88,46 @@ print("Here are the letters available to guess")
 print (available_letters)
 print("\nHere's the word you're guessing")
 for i in range (len(word)):
-    print ("__", end = " ")
+    word_list.append("_")
+print(word_list)
 print ("\nIt's " + str(len(word)) + " letters long!")
 
-guess = input("\nGuess a letter!\n")
-available_letters.pop(available_letters.index(guess.upper()))
+wrong = 0
+game_on = True
+correct = False
+right = False
 
-if guess in word:
-    position = word.index(guess)
-    for i in range (len(position)):
-        print("__", end = " ")
-    print(guess)
-    for i in range (len(word - position))
+while game_on is True:
+    correct = False
+    guess = input("\nGuess a letter!\n").upper()
 
 
+    if guess in your_letters:
+        print("Hey you already guessed that, idiot ")
+    else:
+        if guess in word:
+            correct = True
+        your_letters.append(guess.upper())
+
+
+    print("")
+
+    for i in word:
+        if i in your_letters:
+            print(i + " ", end="")
+        else:
+            print("_ ", end="")
+
+    if correct == False:
+        wrong += 1
+    else:
+        wrong = wrong
+
+    if wrong == 5:
+        "Game over, you lost!"
+        game_on = False
+
+    print(HANGMANPICS[wrong])
+
+    print("\nHere are the letters you've guessed")
+    print(your_letters)
