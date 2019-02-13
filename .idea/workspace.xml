@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="" />
+    <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_hangman.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,35 +16,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_pset_formatting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="1230">
               <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_pset_lists_and_comprehensions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="-1779">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/03_lists_and_comprehensions.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_hangman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1459">
-              <caret line="116" column="66" selection-start-line="116" selection-start-column="66" selection-end-line="116" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_message">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="37">
+              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,6 +52,7 @@
         <option value="$PROJECT_DIR$/01_formatting.py" />
         <option value="$PROJECT_DIR$/../ProgrammingII/Notes/03_lists_and_comprehensions.py" />
         <option value="$PROJECT_DIR$/02_lists_and_comprehensions.py" />
+        <option value="$PROJECT_DIR$/03_hangman.py" />
       </list>
     </option>
   </component>
@@ -72,6 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -83,7 +79,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02_lists_and_comprehensions">
+  <component name="RunManager" selected="Python.03_hangman">
     <configuration name="02_lists_and_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +110,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_pset_lists_and_comprehensions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_hangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProgrammingII_Projects_Sammy_Kagan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_hangman.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,6 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_hangman" />
         <item itemvalue="Python.02_lists_and_comprehensions" />
         <item itemvalue="Python.03_lists_and_comprehensions" />
         <item itemvalue="Python.formatting" />
@@ -240,25 +257,32 @@
       <option name="project" value="LOCAL" />
       <updated>1549601836274</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Almost there, just gotta figure out how to determine whether or not the user won.">
+      <created>1550000060800</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550000060800</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="42" width="1260" height="712" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49475384" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394673" visible="true" weight="0.8" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959645" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50524616" side_tool="true" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50605327" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,34 +294,30 @@
     <MESSAGE value="finished problem set 1" />
     <MESSAGE value="renamed file from &quot;formatting.py&quot; to &quot;01_formatting.py&quot;" />
     <MESSAGE value="new notes, new naming system to differentiate psets from notes of the same name, and finished pset for #2 ,lists and comprehensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="new notes, new naming system to differentiate psets from notes of the same name, and finished pset for #2 ,lists and comprehensions" />
+    <MESSAGE value="Almost there, just gotta figure out how to determine whether or not the user won." />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost there, just gotta figure out how to determine whether or not the user won." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_message">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/03_lists_and_comprehensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1459">
-          <caret line="116" column="66" selection-start-line="116" selection-start-column="66" selection-end-line="116" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_message" />
+    <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/03_lists_and_comprehensions.py" />
     <entry file="file://$PROJECT_DIR$/01_pset_formatting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="1230">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_pset_lists_and_comprehensions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="-1779">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_hangman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
         </state>
       </provider>
     </entry>
