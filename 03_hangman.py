@@ -99,8 +99,13 @@ game_on = True
 correct = False
 right = False
 letters_remaining = True
+round = 0
 
 while game_on is True:
+    round += 1
+    print("\n\n––––––––––––––––––––––––––––––––")
+    print("\nROUND " + str(round))
+
     correct = False
     guess = input("\nGuess a letter!\n").upper()
 
@@ -111,7 +116,12 @@ while game_on is True:
     else:
         if guess in word:
             correct = True
+            print("\nGood guess! '" + str(guess) + "' IS in the word.")
         your_letters.append(guess.upper())
+
+    if guess not in word:
+        print("\nBad guess! '" + str(guess) + "' IS NOT in the word.")
+
 
     letters_remaining = False
 
@@ -133,6 +143,7 @@ while game_on is True:
     print(HANGMANPICS[wrong])
 
     print("\nHere are the letters you've guessed")
+    your_letters.sort()
     print(your_letters)
 
     if wrong == 6:
@@ -144,5 +155,7 @@ while game_on is True:
         print("\nGame over, you won!")
         print("\nThe word was " + str(word))
         game_on = False
+
+
 
 
