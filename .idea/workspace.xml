@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/04_fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_hangman.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +31,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_hangman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="76" column="213" selection-start-line="76" selection-start-column="213" selection-end-line="76" selection-end-column="213" />
+            <state relative-caret-position="171">
+              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/04_fibonacci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +72,7 @@
         <option value="$PROJECT_DIR$/../ProgrammingII/Notes/03_lists_and_comprehensions.py" />
         <option value="$PROJECT_DIR$/02_lists_and_comprehensions.py" />
         <option value="$PROJECT_DIR$/03_hangman.py" />
+        <option value="$PROJECT_DIR$/.idea/04_fibonacci.py" />
       </list>
     </option>
   </component>
@@ -73,6 +93,11 @@
             <path>
               <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -96,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03_hangman">
+  <component name="RunManager" selected="Python.04_fibonacci">
     <configuration name="02_lists_and_comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +185,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="04_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProgrammingII_Projects_Sammy_Kagan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/04_fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="formatting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +229,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04_fibonacci" />
         <item itemvalue="Python.03_hangman" />
         <item itemvalue="Python.02_lists_and_comprehensions" />
         <item itemvalue="Python.03_lists_and_comprehensions" />
@@ -278,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550099518612</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="More fixed.">
+      <created>1550174303582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550174303582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,7 +344,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394673" weight="0.48387095" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394673" visible="true" weight="0.48387095" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959645" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +352,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50605327" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,7 +366,8 @@
     <MESSAGE value="Almost there, just gotta figure out how to determine whether or not the user won." />
     <MESSAGE value="It works! The formatting kinda sucks but this game is fully functional." />
     <MESSAGE value="Cleaned up the code. The game now both works and has a shiny coating too. Don't know how much more work this code needs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up the code. The game now both works and has a shiny coating too. Don't know how much more work this code needs." />
+    <MESSAGE value="More fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="More fixed." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_message" />
@@ -333,8 +388,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_hangman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="76" column="213" selection-start-line="76" selection-start-column="213" selection-end-line="76" selection-end-column="213" />
+        <state relative-caret-position="171">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/04_fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
