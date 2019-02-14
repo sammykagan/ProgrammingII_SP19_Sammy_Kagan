@@ -5,6 +5,25 @@
 # Write a program that calculates and prints the Fibonacci sequence
 # until the numbers get higher than 1000.
 
+import math
+import random
+
+# Let's go motherduckers
+
+prev_two = 0
+prev = 1
+stop = False
+number = prev + prev_two
+
+while stop == False:
+    print(number)
+    number = prev_two + prev
+    if number > 1000:
+        stop = True
+    prev_two = prev
+    prev = number
+
+
 # PROBLEM 2 (Dice Sequence)
 # You roll five six-sided dice, one by one.
 # What is the probability that the value of each die
@@ -12,6 +31,30 @@
 # For example, the sequence “1, 1, 4, 4, 6” is a success,
 # but “1, 1, 4, 3, 6” is not. Determine the
 # probability of success using a simulation of a large number of trials.
+
+die_1 = random.randrange(1, 7)
+die_2 = random.randrange(1, 7)
+die_3 = random.randrange(1, 7)
+die_4 = random.randrange(1, 7)
+die_5 = random.randrange(1, 7)
+trials = 100000
+success = 0
+failure = 0
+success_pct = 0
+
+for i in range(trials):
+    die_1 = random.randrange(1, 7)
+    die_2 = random.randrange(1, 7)
+    die_3 = random.randrange(1, 7)
+    die_4 = random.randrange(1, 7)
+    die_5 = random.randrange(1, 7)
+    if die_5 >= die_4 and die_4 >= die_3 and die_3 >= die_2 and die_2 >= die_1:
+        success += 1
+    else:
+        failure += 1
+success_pct = (success/trials) * 100
+print("")
+print(str(success) + " successes, " + str(failure) + " failures. That's a success percentage of " + str(success_pct) +"%")
 
 # PROBLEM 3 (Number Puzzler)
 # A, B, C, and D are all different digits.
