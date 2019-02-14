@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_pset_lists_and_comprehensions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1779">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="225">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_hangman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+            <state relative-caret-position="154">
+              <caret line="76" column="213" selection-start-line="76" selection-start-column="213" selection-end-line="76" selection-end-column="213" />
             </state>
           </provider>
         </entry>
@@ -58,7 +58,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
-    <option name="y" value="42" />
+    <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="712" />
   </component>
@@ -67,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -79,6 +78,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,18 +264,33 @@
       <option name="project" value="LOCAL" />
       <updated>1550000060800</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="It works! The formatting kinda sucks but this game is fully functional.">
+      <created>1550082492171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550082492171</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cleaned up the code. The game now both works and has a shiny coating too. Don't know how much more work this code needs.">
+      <created>1550099518612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550099518612</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="42" width="1260" height="712" extended-state="0" />
+    <frame x="20" y="23" width="1260" height="712" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394673" visible="true" weight="0.8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394673" weight="0.48387095" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959645" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,7 +298,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50605327" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -295,7 +310,9 @@
     <MESSAGE value="renamed file from &quot;formatting.py&quot; to &quot;01_formatting.py&quot;" />
     <MESSAGE value="new notes, new naming system to differentiate psets from notes of the same name, and finished pset for #2 ,lists and comprehensions" />
     <MESSAGE value="Almost there, just gotta figure out how to determine whether or not the user won." />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost there, just gotta figure out how to determine whether or not the user won." />
+    <MESSAGE value="It works! The formatting kinda sucks but this game is fully functional." />
+    <MESSAGE value="Cleaned up the code. The game now both works and has a shiny coating too. Don't know how much more work this code needs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up the code. The game now both works and has a shiny coating too. Don't know how much more work this code needs." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_message" />
@@ -309,15 +326,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_pset_lists_and_comprehensions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1779">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_hangman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="76" column="213" selection-start-line="76" selection-start-column="213" selection-end-line="76" selection-end-column="213" />
         </state>
       </provider>
     </entry>

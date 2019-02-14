@@ -74,7 +74,7 @@ HANGMANPICS = ['''
 import random
 
 #Create the list of words and establish the word the player is trying to solve
-word_list = ["BIDEN", "SANDERS", "BOOKER", "GILLIBRAND", "KLOBUCHAR", "HARRIS", "DELANEY", "CASTRO", "BUTTIGIEG", "GABBARD", "WARREN", "BROWN", "HICKENLOOPER", "OROURKE", "KAGAN"]
+word_list = ["BIDEN", "SANDERS", "BOOKER", "GILLIBRAND", "KLOBUCHAR", "HARRIS", "DELANEY", "CASTRO", "BUTTIGIEG", "GABBARD", "WARREN", "BROWN", "HICKENLOOPER", "OROURKE", "KAGAN", "HOLDER", "GARCETTI", "BLOOMBERG"]
 word = (word_list[random.randrange(0, len(word_list))])
 alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 available_letters = alphabet
@@ -91,7 +91,7 @@ print("\nHere's the word you're guessing")
 for i in range (len(word)):
     word_list.append("_")
 print(word_list)
-print ("\nIt's " + str(len(word)) + " letters long!")
+print ("\nIt's " + str(len(word)) + " letters long!"
 
 wrong = 0
 good_guesses = 0
@@ -146,7 +146,7 @@ while game_on is True:
     your_letters.sort()
     print(your_letters)
 
-    if wrong == 6:
+    if wrong == len(HANGMANPICS):
         print("\nGame over, you lost!")
         print("\nThe word was " + str(word))
         game_on = False
