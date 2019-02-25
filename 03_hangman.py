@@ -91,10 +91,10 @@ print("\nHere's the word you're guessing")
 for i in range (len(word)):
     word_list.append("_")
 print(word_list)
-print ("\nIt's " + str(len(word)) + " letters long!"
+print ("\nIt's " + str(len(word)) + " letters long!")
 
-wrong = 0
 good_guesses = 0
+wrong = 0
 game_on = True
 correct = False
 right = False
