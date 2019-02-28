@@ -10,7 +10,7 @@ Which team would you rather be?
 '''
 
 shot_odds = 0.055
-simulations = 99999
+simulations = 1000
 pen_goals = 0
 pen_wins = 0
 pen_ties = 0
