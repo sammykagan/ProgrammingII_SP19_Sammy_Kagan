@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09_german_tank_simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching/07_search_problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/07_search_problems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching/AliceInWonderLand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/AliceInWonderLand.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching/AliceInWonderLand200.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/AliceInWonderLand200.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching/ch15Lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/08_ch15Lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07 and 08/08_ch15Lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/07 and 08/08_ch15Lab.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="1410">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -42,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-435">
               <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
@@ -71,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/04_searchingB.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1155">
-              <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -153,35 +148,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming2_SP19" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming2_SP19" type="462c0819:PsiDirectoryNode" />
-              <item name="07 and 08" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -451,18 +418,26 @@
       <option name="project" value="LOCAL" />
       <updated>1551550082983</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Some problems on searching. 3/1/19">
+      <created>1551980245299</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551980245300</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1260" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394673" visible="true" weight="0.24555735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394673" visible="true" weight="0.5121163" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959645" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50605327" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.32903227" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.3279483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -544,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_german_tank_simulation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -558,13 +526,6 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -584,7 +545,7 @@
     <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/04_searchingB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
-          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -609,6 +570,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>

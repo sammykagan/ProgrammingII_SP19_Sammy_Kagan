@@ -22,8 +22,12 @@ file.close()
 # imported the dictionary, and made it into a list.
 # then we closed the dictionary.
 
-print("--- Linear Search ---")
-print("Format: [Misspelled Word, Line Number]")
+print("\n--- LINEAR SEARCH ---")
+
+
+import time
+now0 = time.time()
+
 
 file = open('AliceInWonderLand200.txt', 'r')
 line_number = 0
@@ -45,14 +49,20 @@ for line in file:
         if i < len(dictionary_list):
             dictionary_list=dictionary_list
         else:
-            non_dict.append([word, line_number])
-print(non_dict)
+            #non_dict.append([word, line_number])
+            print(word, "is not in the dictionary, it is at line", line_number)
+now = time.time() - now0
 
 file.close()
 
 file = open('AliceInWonderLand200.txt', 'r')
+start = time.time()
 
-print("\n--- Binary Search ---")
+
+
+line_number = 0
+
+print("\n\n--- BINARY SEARCH ---")
 
 for line in file:
     line_number += 1
@@ -80,3 +90,9 @@ for line in file:
 
        if not real_word:
            print(key, "is not in the dictionary, it is at line", line_number)
+
+end = time.time() - start
+print("\nThe linear search took", round(now,2), "seconds.")
+print("The binary search took", round(end,2), "seconds.")
+timer = now/end
+print("\nThe binary search was", round(timer,2), "times faster than the linear search.")
