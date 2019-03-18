@@ -14,3 +14,17 @@
 # (3pts) keeps asking for inputs until they are valid (see while loop from notes)
 # (4pts) calculate the force of gravity in Newtons and print the result to the user in scientific notation to two decimals.
 
+hello = "hio"
+hello = hello / 2
+print(hello)
+
+def ugc(m1, m2, r):
+    try:
+        f = g * (m1 * m2) / r ** 2
+    except ZeroDivisionError:
+        print("Error. The radius may not be zero because one may not divide by zero.")
+    except TypeError:
+        "Error. One must input numbers."
+
+
+

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting_lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting_lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting_problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting_problems.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09_german_tank_simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="975">
+              <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -35,20 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="285">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting_lab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorting_lab.py">
+        <entry file="file://$PROJECT_DIR$/sorting_problems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="207">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="15" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -154,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,28 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.08_ch15Lab">
-    <configuration name="05_hockey_shots" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProgrammingII_Projects_Sammy_Kagan" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_hockey_shots.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sorting_lab">
     <configuration name="06_dice_rolling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,13 +271,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sorting_lab" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProgrammingII_Projects_Sammy_Kagan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting_lab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sorting_lab" />
         <item itemvalue="Python.08_ch15Lab" />
         <item itemvalue="Python.09_german_tank_simulation" />
         <item itemvalue="Python.search_problems" />
         <item itemvalue="Python.06_dice_rolling" />
-        <item itemvalue="Python.05_hockey_shots" />
       </list>
     </recent_temporary>
   </component>
@@ -455,13 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552018960362</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="My grand effort to sort NBA players. The code from selection sort is adapted from earlier notes on selection sorting, the failed bit of insertion sort was a three hour nightmare that I never finished on a plane, and the final bit using .sort() is entirely original code.&#10;&#10;Big shoutout to The Man, The Myth, The Legendary Lindsay Carlin for her help.">
+      <created>1552907395689</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1552907395689</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1274" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2490024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2490024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -471,7 +477,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" visible="true" weight="0.3279483" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798223" weight="0.3279483" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50605327" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.3279483" />
@@ -495,7 +501,8 @@
     <MESSAGE value="New project for Stats about rolling dice. Simple simulation." />
     <MESSAGE value="Some problems on searching. 3/1/19" />
     <MESSAGE value="Final spellcheck lab for Alice in Wonderland. Now includes a timer feature demonstrating the radical difference between binary and linear searching." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final spellcheck lab for Alice in Wonderland. Now includes a timer feature demonstrating the radical difference between binary and linear searching." />
+    <MESSAGE value="My grand effort to sort NBA players. The code from selection sort is adapted from earlier notes on selection sorting, the failed bit of insertion sort was a three hour nightmare that I never finished on a plane, and the final bit using .sort() is entirely original code.&#10;&#10;Big shoutout to The Man, The Myth, The Legendary Lindsay Carlin for her help." />
+    <option name="LAST_COMMIT_MESSAGE" value="My grand effort to sort NBA players. The code from selection sort is adapted from earlier notes on selection sorting, the failed bit of insertion sort was a three hour nightmare that I never finished on a plane, and the final bit using .sort() is entirely original code.&#10;&#10;Big shoutout to The Man, The Myth, The Legendary Lindsay Carlin for her help." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_message" />
@@ -552,6 +559,23 @@
     <entry file="file://$PROJECT_DIR$/07 and 08/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_german_tank_simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/07 and 08/AliceInWonderLand200.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -593,34 +617,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_german_tank_simulation.py">
+    <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07 and 08/08_ch15Lab.py">
+    <entry file="file://$PROJECT_DIR$/sorting_problems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="15" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorting_lab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07 and 08/07_search_problems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="479">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
