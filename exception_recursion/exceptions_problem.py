@@ -14,17 +14,32 @@
 # (3pts) keeps asking for inputs until they are valid (see while loop from notes)
 # (4pts) calculate the force of gravity in Newtons and print the result to the user in scientific notation to two decimals.
 
-hello = "hio"
-hello = hello / 2
-print(hello)
 
-def ugc(m1, m2, r):
-    try:
-        f = g * (m1 * m2) / r ** 2
-    except ZeroDivisionError:
-        print("Error. The radius may not be zero because one may not divide by zero.")
-    except TypeError:
-        "Error. One must input numbers."
+def ugc():
+    valid_input = False
+    g = 6.67e-11
+    while valid_input is False:
+        try:
+            m1 = float(input("Mass 1 (kg)?\n"))
+            m2 = float(input("Mass 2 (kg)?\n"))
+            r = float(input("Radius (m)?\n"))
+            f = g * (m1 * m2) / r ** 2
+            valid_input = True
+        except ZeroDivisionError:
+            print("Error. The radius may not be zero because one may not divide by zero.")
+            print()
+        except ValueError:
+            print("Error. One must input numbers.")
+            print()
+    answer = (g * m1 * m2) / r ** 2
+    answer = "{:.2e}".format(answer)
+    print("The force of gravity in these circumstances is", answer, "newtons.")
+
+
+ugc()
+
+
+
 
 
 
