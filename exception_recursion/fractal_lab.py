@@ -21,3 +21,36 @@
 #  Have fun!
  
 #  Resource to help you out >>> https://docs.python.org/3.3/library/turtle
+
+import turtle
+
+my_turtle = turtle.Turtle()  # create a turtle object
+my_screen = turtle.Screen()  # create a screen object
+
+my_turtle.width(4)
+my_turtle.speed(0) # 0 means as fast as it will
+my_turtle.shape("turtle") # makes the pen that draws it look like a turtle
+
+def h_tree(x, y, size, depth):
+    # top of the C bracket
+
+    my_turtle.penup()
+    my_turtle.goto(x, y)
+    my_turtle.pendown()
+    my_turtle.setheading(90)
+    my_turtle.forward(size)
+    my_turtle.right(270)
+    my_turtle.forward(size)
+    my_turtle.right(180)
+    my_turtle.forward(size * 2)
+    my_turtle.goto(x, y)
+    my_turtle.setheading(270)
+    my_turtle.forward(size)
+    my_turtle.left(270)
+    my_turtle.forward(size)
+    my_turtle.left(180)
+    my_turtle.forward(size * 2)
+
+h_tree(0, 0, 80, 1)
+
+my_screen.exitonclick()
