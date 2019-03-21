@@ -31,26 +31,59 @@ my_turtle.width(4)
 my_turtle.speed(0) # 0 means as fast as it will
 my_turtle.shape("turtle") # makes the pen that draws it look like a turtle
 
-def h_tree(x, y, size, depth):
-    # top of the C bracket
+from turtle import Turtle, Screen
 
-    my_turtle.penup()
-    my_turtle.goto(x, y)
-    my_turtle.pendown()
-    my_turtle.setheading(90)
-    my_turtle.forward(size)
-    my_turtle.right(270)
-    my_turtle.forward(size)
-    my_turtle.right(180)
-    my_turtle.forward(size * 2)
-    my_turtle.goto(x, y)
-    my_turtle.setheading(270)
-    my_turtle.forward(size)
-    my_turtle.left(270)
-    my_turtle.forward(size)
-    my_turtle.left(180)
-    my_turtle.forward(size * 2)
+def htree(turtle, depth, center, length):
 
-h_tree(0, 0, 80, 1)
+    if depth < 0:
+        return
+
+    if center is not None:
+        turtle.up()
+        turtle.goto(center)
+        turtle.down()
+
+    turtle.forward(length / 2)
+    turtle.right(90)
+    turtle.forward(length / 2)
+    turtle.left(90)
+
+    htree (turtle, depth - 1, None, length / 2)
+
+    turtle.left(90)
+    turtle.forward(length)
+    turtle.right(90)
+
+    htree (turtle, depth - 1, None, length / 2)
+
+    turtle.right(90)
+    turtle.forward(length / 2)
+    turtle.right(90)
+    turtle.forward(length)
+    turtle.left(90)
+    turtle.forward(length / 2)
+    turtle.right(90)
+
+    htree(turtle, depth - 1, None, length / 2)
+
+    turtle.right(90)
+    turtle.forward(length)
+    turtle.right(90)
+
+    htree (turtle, depth - 1, None, length / 2)
+
+    turtle.right(90)
+    turtle.forward(length / 2)
+    turtle.left(90)
+    turtle.forward(length / 2)  # always leave the turtle where you found it!
+
+
+samé = Turtle()
+
+htree (samé, 1, (0, 0), 200)
+
+screen = Screen()
+
+screen.exitonclick()
 
 my_screen.exitonclick()
