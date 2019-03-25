@@ -23,13 +23,17 @@
 #  Resource to help you out >>> https://docs.python.org/3.3/library/turtle
 
 import turtle
+import math
 
 my_turtle = turtle.Turtle()  # create a turtle object
 my_screen = turtle.Screen()  # create a screen object
 
 my_turtle.width(4)
 my_turtle.speed(0)
+turtle.delay(0)
+turtle.ht()
 
+#IT'S TILTED
 def htree(depth, center, size):
 
     if depth < 0:
@@ -46,13 +50,11 @@ def htree(depth, center, size):
     turtle.left(90)
 
     htree(depth - 1, None, size / 2)
-
     turtle.left(90)
     turtle.forward(size)
-    turtle.right(90)
+    turtle.left(270)
 
     htree(depth - 1, None, size / 2)
-
     turtle.right(90)
     turtle.forward(size / 2)
     turtle.right(90)
@@ -66,8 +68,7 @@ def htree(depth, center, size):
     turtle.forward(size)
     turtle.right(90)
 
-    htree (depth - 1, None, size / 2)
-
+    htree(depth - 1, None, size / 2)
     turtle.right(90)
     turtle.forward(size / 2)
     turtle.left(90)
@@ -75,6 +76,109 @@ def htree(depth, center, size):
 
 
 htree(3, (0,0), 100)
+
+my_screen.clear()
+
+def escher(depth, size):
+
+    if depth > 0:
+        turtle.up()
+        turtle.goto(size / 2, size / 2)
+        turtle.down()
+
+        turtle.right(90)
+        turtle.forward(size)
+        turtle.right(90)
+        turtle.forward(size)
+        turtle.right(90)
+        turtle.forward(size)
+        turtle.right(90)
+        turtle.forward(size)
+
+        turtle.goto(0, size / 2)
+        turtle.right(45)
+        pythag = math.sqrt(size**2 + size**2) / 2
+        turtle.forward(pythag)
+        turtle.right(90)
+        turtle.forward(pythag)
+        turtle.right(90)
+        turtle.forward(pythag)
+        turtle.right(90)
+        turtle.forward(pythag)
+        turtle.right(45)
+
+        escher(depth - 1, size / 2)
+
+
+escher(9, 500)
+
+my_screen.clear()
+'''
+def triangle (depth, size):
+
+    if depth > 0:
+        turtle.up()
+        turtle.goto(0, size / 3)
+        turtle.down()
+
+        pos1 = turtle.position()
+        turtle.right(60)
+        turtle.forward(size)
+        pos2 = turtle.position()
+        turtle.right(120)
+        turtle.forward(size)
+        pos3 = turtle.position()
+        turtle.right(60)
+        turtle.forward(size)
+
+        turtle.goto(pos1)
+        turtle.right(60)
+        turtle.forward(size)
+        turtle.right(60)
+        turtle.forward(size)
+        turtle.right(60)
+        turtle.forward(size)
+
+
+
+
+triangle(1, 100)
+'''
+
+def that_thing (depth, size):
+
+    if depth > 0:
+        turtle.up()
+        turtle.goto(size / 4, size / 4)
+        turtle.down()
+
+        turtle.right(90)
+        turtle.forward(size * (4/6))
+        pos = turtle.position()
+        turtle.forward(size * (2/6))
+        turtle.goto(pos)
+
+        turtle.right(90)
+        turtle.forward(size * (4 / 6))
+        pos = turtle.position()
+        turtle.forward(size * (2 / 6))
+        turtle.goto(pos)
+
+        turtle.right(90)
+        turtle.forward(size * (4 / 6))
+        pos = turtle.position()
+        turtle.forward(size * (2 / 6))
+        turtle.goto(pos)
+
+        turtle.right(90)
+        turtle.forward(size * (4 / 6))
+        pos = turtle.position()
+        turtle.forward(size * (2 / 6))
+        turtle.goto(pos)
+
+        that_thing(depth - 1, size / 2)
+
+that_thing(9, 400)
 
 
 my_screen.exitonclick()
