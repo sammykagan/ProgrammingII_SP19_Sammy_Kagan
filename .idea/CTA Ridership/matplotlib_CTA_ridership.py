@@ -44,7 +44,7 @@ plt.plot(year, rail_usage, label = "Rail")
 
 axis = fig.gca()
 y_axis = axis.get_yaxis()
-axis.yaxis.set_major_formatter(tkr.FuncFormatter(lambda x, p: "{:,}".format(x)))
+axis.yaxis.set_major_formatter(tkr.FuncFormatter(lambda x, p: "{:-1,}".format(x)))
 
 
 plt.xlabel("Year")
