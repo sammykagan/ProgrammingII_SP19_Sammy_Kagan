@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
+    <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +13,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/CTA Ridership/matplotlib_CTA_ridership.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="461">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#732#763#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/09_scatterplot/09_scatterplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="46" selection-start-line="46" selection-end-line="47" selection-end-column="90" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_energy_scatterplot/Chicago_Energy_Benchmarking.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="741" column="24" selection-start-line="741" selection-start-column="12" selection-end-line="741" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -32,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/08_plotting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="405">
               <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="53" />
               <folding>
                 <element signature="e#102#133#0" expanded="true" />
@@ -54,6 +85,10 @@
     <findStrings>
       <find>binary</find>
       <find>legend</find>
+      <find>ruiz</find>
+      <find>CICS Wri</find>
+      <find>latin school</find>
+      <find>2739</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,6 +118,7 @@
         <option value="$PROJECT_DIR$/exception_recursion/fractal_lab.py" />
         <option value="$PROJECT_DIR$/matplotlib_CTA_ridership.py" />
         <option value="$PROJECT_DIR$/.idea/CTA Ridership/matplotlib_CTA_ridership.py" />
+        <option value="$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py" />
       </list>
     </option>
   </component>
@@ -103,17 +139,6 @@
             <path>
               <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="CTA Ridership" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.matplotlib_CTA_ridership">
+  <component name="RunManager" selected="Python.11_energy_scatterplot">
     <configuration name="08_plotting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exceptions_problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11_energy_scatterplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +230,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exception_recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_energy_scatterplot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exception_recursion/exceptions_problem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11_energy_scatterplot" />
         <item itemvalue="Python.matplotlib_CTA_ridership" />
         <item itemvalue="Python.08_plotting" />
         <item itemvalue="Python.fractal_lab" />
         <item itemvalue="Python.10_sorting_problems" />
-        <item itemvalue="Python.exceptions_problem" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553629225896</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="progress">
+      <created>1554243058820</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1554243058820</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,15 +514,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49321628" weight="0.2907916" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49002394" visible="true" weight="0.2907916" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959645" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49720672" weight="0.0726979" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5067837" side_tool="true" visible="true" weight="0.2907916" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878934" weight="0.3279483" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.509976" side_tool="true" visible="true" weight="0.2907916" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4964086" weight="0.3279483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,7 +568,8 @@
     <MESSAGE value="&#10;," />
     <MESSAGE value="CHARTPARTY!" />
     <MESSAGE value="Quick tweak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick tweak" />
+    <MESSAGE value="progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_message" />
@@ -727,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/08_plotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="405">
           <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="53" />
           <folding>
             <element signature="e#102#133#0" expanded="true" />
@@ -735,13 +768,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11_energy_scatterplot/Chicago_Energy_Benchmarking.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="741" column="24" selection-start-line="741" selection-start-column="12" selection-end-line="741" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/CTA Ridership/matplotlib_CTA_ridership.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="461">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#732#763#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgrammingII/Notes/09_scatterplot/09_scatterplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="46" selection-start-line="46" selection-end-line="47" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_energy_scatterplot/11_energy_scatterplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>

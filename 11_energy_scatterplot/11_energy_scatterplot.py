@@ -75,9 +75,7 @@ print(sorted_intensity)
 top_intensity = [sorted_intensity[x][0] for x in range(3)]
 print(top_intensity)
 
-for i in range(3):
-    plt.annotate(sorted_intensity[i][0], xy=(sorted_intensity[i][2], sorted_intensity[i][3]))
-    print(sorted_intensity[i][2])
+
 
 
 
@@ -97,6 +95,9 @@ print(sort_intensity[0])
 
 plt.figure(1, figsize=(12,6))
 plt.scatter(building_square_footage, green_house_emmissions, alpha=0.4, s=15)
+for i in range(3):
+    plt.annotate(sorted_intensity[i][0], xy=(sorted_intensity[i][3], sorted_intensity[i][2]))
+
 
 plt.title("Green House Emmissions vs. Building Square Footage in Chicago K-12 Schools")
 plt.xlabel("Total Green House Emmissions (Metric Tons CO2e)")
