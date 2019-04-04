@@ -6,3 +6,22 @@
 # Print the tweets in a nicely formatted way.
 # Have fun.  Again, nothing explicit.
 
+from bs4 import BeautifulSoup
+import requests
+
+url = "https://twitter.com/KylePlantEmoji"
+
+page = requests.get(url)
+
+soup = BeautifulSoup(page.text, "html.parser")
+
+tweet = soup.findAll(class_="tweet-text")
+
+
+for i in tweet:
+    print("----------------------\n")
+    print(i.text)
+    print("")
+print("----------------------")
+
+
