@@ -20,7 +20,7 @@ Make a scatterplot which does the following:
 - Customize your graph in a discernable way using any technique discussed or one from the API (matplotlib.org). (5pts)
 
 Challenge (for fun if you have time... not required):
-- Make schools in top 10 percent of GHG Intensity show in green.
+- Make schools in top 10 percent o                                                                                                                                                                                                                                                                                                  f GHG Intensity show in green.
 - Make schools in bottom 10 percent GHG Intesity show in red.
 - Add colleges and universities (use a different marker type)
 '''
@@ -75,10 +75,6 @@ print(sorted_intensity)
 top_intensity = [sorted_intensity[x][0] for x in range(3)]
 print(top_intensity)
 
-
-
-
-
 '''
 sort_intensity = [x for x in intensity]
 sort_intensity.sort()
@@ -95,9 +91,20 @@ print(sort_intensity[0])
 
 plt.figure(1, figsize=(12,6))
 plt.scatter(building_square_footage, green_house_emmissions, alpha=0.4, s=15)
+
 for i in range(3):
     plt.annotate(sorted_intensity[i][0], xy=(sorted_intensity[i][3], sorted_intensity[i][2]))
 
+for i in range(3):
+    plt.annotate(sorted_intensity[-i - 1][0], xy=(sorted_intensity[-i - 1][3], sorted_intensity[-i - 1][2] + (i-1)*450), rotation=0)
+
+plt.annotate("Francis W. Parker School", xy=(233000.0, 3125.0))
+
+m, b = (np.polyfit(building_square_footage, green_house_emmissions, 1))
+fit_x = [0, 700000]
+fit_y = [b, m * 700000 + b]
+
+plt.plot(fit_x, fit_y, color='hotpink') # I customized it...look. It's hot pink now!
 
 plt.title("Green House Emmissions vs. Building Square Footage in Chicago K-12 Schools")
 plt.xlabel("Total Green House Emmissions (Metric Tons CO2e)")
