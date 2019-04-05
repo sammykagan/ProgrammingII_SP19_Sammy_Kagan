@@ -17,11 +17,14 @@ soup = BeautifulSoup(page.text, "html.parser")
 
 tweet = soup.findAll(class_="tweet-text")
 
+tweet_list = []
 
-for i in tweet:
-    print("----------------------\n")
-    print(i.text)
-    print("")
-print("----------------------")
+for j in tweet:
+    tweet_list.append(j.text)
 
+print("\n\nTweets from", url)
 
+for i in range(5):
+    print("\n---------------------------------------\n")
+    print(tweet_list[i])
+print("\n--------------------------------------")
