@@ -9,7 +9,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://twitter.com/KylePlantEmoji"
+url = "https://twitter.com/realDonaldTrump"
 
 page = requests.get(url)
 
