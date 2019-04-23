@@ -22,3 +22,26 @@
 # Match the font and text color as closely as you can.
 # Match the size of the app and the relative button sizes as closely as you can.
 # Match the button layout as closely as you can.
+
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.core.window import Window
+
+Window.size = (300, 400)
+
+class CalculatorApp(App):
+    def build(self):
+        return CalculatorLayout()
+
+class CalculatorLayout(BoxLayout):
+    # all my fuctions go in here (root widget)
+    # add a "Try Except"
+    def calculate(self, equation):
+        answer = round(eval(equation), 5)
+        self.display.text = str(answer)
+
+if __name__ == "__main__":
+    my_equation = "2+3"
+    print(eval(my_equation))
+    app = CalculatorApp()
+    app.run()
