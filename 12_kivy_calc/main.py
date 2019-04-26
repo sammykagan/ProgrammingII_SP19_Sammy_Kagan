@@ -28,6 +28,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
 
 Window.size = (300, 400)
+equal_press = False
 
 class CalculatorApp(App):
     def build(self):
@@ -37,11 +38,22 @@ class CalculatorLayout(BoxLayout):
     # all my fuctions go in here (root widget)
     # add a "Try Except"
     def calculate(self, equation):
-        answer = round(eval(equation), 5)
-        self.display.text = str(answer)
+        try:
+            answer = round(eval(equation), 5)
+            self.display.text = str(answer)
+        except:
+            self.display.text = ""
+            equal_press = True
+
+    def equal_sign(self):
+        equal_press = True
+
+    def equal_check(self):
+        if equal_press is True:
+            self.display.text = ""
+
+
 
 if __name__ == "__main__":
-    my_equation = "2+3"
-    print(eval(my_equation))
     app = CalculatorApp()
     app.run()

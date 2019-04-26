@@ -92,6 +92,7 @@
             font_name: "Comic Sans MS Copy"
         CustButton:
             text: "3"
+            on_press: root.equal_check()
             on_press: display.text += self.text
             font_name: "Comic Sans MS Copy"
         OrangeButton:
@@ -114,4 +115,5 @@
             text: "="
             font_name: "Comic Sans MS Copy"
             on_press: root.calculate(display.text)
+            on_press: root.equal_sign()
 

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8258989-dbc0-4331-b7fd-5d5ff89bbb3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProgrammingII_Projects_Sammy_Kagan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProgrammingII_Projects_Sammy_Kagan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_kivy_gravity/gravity.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_kivy_calc/calculator.kv" beforeDir="false" afterPath="$PROJECT_DIR$/12_kivy_calc/calculator.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_kivy_calc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_kivy_calc/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kivyGravity.py" beforeDir="false" afterPath="$PROJECT_DIR$/13_kivy_gravity/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +15,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13_kivy_gravity/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13_kivy_gravity/gravity.kv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +51,7 @@
       <find>plt.plot</find>
       <find>KylePlant</find>
       <find>kyleplantemoji</find>
+      <find>round</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,6 +85,9 @@
         <option value="$PROJECT_DIR$/scraping_lab.py" />
         <option value="$PROJECT_DIR$/locker_problem.py" />
         <option value="$PROJECT_DIR$/11_scraping_problems.py" />
+        <option value="$PROJECT_DIR$/12_kivy_calc/calculator.kv" />
+        <option value="$PROJECT_DIR$/12_kivy_calc/main.py" />
+        <option value="$PROJECT_DIR$/13_kivy_gravity/main.py" />
       </list>
     </option>
   </component>
@@ -80,23 +101,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProgrammingII_Projects_Sammy_Kagan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming2_SP19" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="ProgrammingII_Projects_Sammy_Kagan" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProgrammingII_Projects_Sammy_Kagan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming2_SP19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,6 +131,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13_kivy_gravity" />
       <recent name="$PROJECT_DIR$/.idea/CTA Ridership" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
@@ -126,28 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scraping_lab">
-    <configuration name="09_scatterplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProgrammingII_Projects_Sammy_Kagan" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProgrammingII/Notes/09_scatterplot" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ProgrammingII/Notes/09_scatterplot/09_scatterplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="11_energy_scatterplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +212,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProgrammingII_Projects_Sammy_Kagan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_kivy_calc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_kivy_calc/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scraping_lab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProgrammingII_Projects_Sammy_Kagan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.scraping_lab" />
         <item itemvalue="Python.11_scraping_problems" />
         <item itemvalue="Python.locker_problem" />
         <item itemvalue="Python.11_energy_scatterplot" />
-        <item itemvalue="Python.09_scatterplot" />
       </list>
     </recent_temporary>
   </component>
@@ -467,22 +489,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="734" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48689437" weight="0.28881988" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48689437" weight="0.288162" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49880287" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49720672" weight="0.0726979" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49720672" visible="true" weight="0.07165109" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959645" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059571" side_tool="true" weight="0.3271028" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4940429" visible="true" weight="0.3271028" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4940429" weight="0.3271028" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -785,6 +808,40 @@
           <folding>
             <element signature="e#102#133#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/kivy/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="481" lean-forward="true" selection-start-line="481" selection-end-line="481" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_kivy_calc/calculator.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_kivy_calc/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="25" selection-start-line="25" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="e#1216#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_kivy_gravity/gravity.kv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_kivy_gravity/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
