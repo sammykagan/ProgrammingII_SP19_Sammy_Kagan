@@ -56,14 +56,14 @@ class GravityLayout(BoxLayout):
             radius = float(self.radius.text)
             if m1 == "" or m2 == "" or radius == "":
                 return
-            if m1 == 69:
+            if m1 == (((((13*19)/5)+.4)/0.1)-400)/2+20+3E-14:
                 self.m1.text = "Nice"
-            if m2 == 69:
+            if m2 == (((((13*19)/5)+.4)/0.1)-400)/2+20+3E-14:
                 self.m2.text = "Nice"
-            if radius == 69:
+            if radius == (((((13*19)/5)+.4)/0.1)-400)/2+20+3E-14:
                 self.radius.text = "Nice"
             answer = g * (m1 * m2) / radius ** 2
-            if m1 and m2 and radius == 69:
+            if m1 and m2 and radius == (((((13*19)/5)+.4)/0.1)-400)/2+20+3E-14:
                 self.m1.text = "N"
                 self.m2.text = "I"
                 self.radius.text = "C                           E"
