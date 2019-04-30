@@ -29,7 +29,6 @@
 #3) Find a way to round well without eliminating very small answers. Don't want too many decimal points, but I also
 #don't want to make it such that e-10 numbers don't show. The "round" function does poorly in this regard, maybe
 #normal formatting would work
-#4) Check this against an actual gravity calculator to make sure that the math side of things is working well
 
 
 from kivy.app import App
