@@ -37,18 +37,20 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.  What is it?
 '''
 import math
-
 a = 1
 b = 2
 c = math.sqrt(a^2 + b^2)
+rounds = 0
 
 for i in range(1000):
     a += 1
     b = 0
     for j in range(1000):
+        rounds += 1
         b += 1
         c = math.sqrt(a**2 + b**2)
         if a < b < c and a + b + c == 1000:
             print(str("a is ") + str(a))
             print(str("b is ") + str(b))
             print(str("c is ") + str(c))
+            print(rounds)
