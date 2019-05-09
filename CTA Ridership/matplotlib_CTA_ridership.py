@@ -17,7 +17,7 @@ import random
 import csv
 import matplotlib.ticker as tkr
 
-with open("/Users/sammykagan/PycharmProjects/Programming2_SP19/.idea/CTA Ridership/CTA_-_Ridership_-_Annual_Boarding_Totals.csv") as f:
+with open("CTA_-_Ridership_-_Annual_Boarding_Totals.csv") as f:
     reader = csv.reader(f) # makes a reader object to pull in the data
     data = list(reader) # cast the reader as a list
 
