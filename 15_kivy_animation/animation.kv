@@ -1,0 +1,27 @@
+<ClockRect>:
+    canvas:
+        Color
+            rgba: [1, 0, 0, 1]
+        Rectangle:
+            pos: self.pos
+            source: "Lindsay_pic_medium-2.jpg"
+            size: (500, 500)
+
+<AniRect>:
+    canvas:
+        Color:
+            rgba: [0, 1, 0, 1]
+        Rectangle:
+            source: "Lindsay_pic_medium-2.jpg"
+            pos: self.pos
+            size: self.size
+
+<AniLayout>:
+    ani: ani
+    AniRect:
+        size: self.size
+        pos: [200, 200]
+        id: ani
+    ClockRect:
+        size: self.size
+        pos: 50, 50

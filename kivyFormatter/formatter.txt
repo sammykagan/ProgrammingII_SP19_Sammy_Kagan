@@ -21,3 +21,10 @@ The label will be the formatting target for this application
 Each control will have an associated label. (8pts)
 
 '''
+
+Radio
+Circles
+Checkboxes
+Kivy
+Code
+Coding
