@@ -1,0 +1,156 @@
+
+<CustBoxLayout@BoxLayout>:
+    size_hint_y: 1
+    spacing: 1
+
+<CustLabel@Label>:
+    font_size: 30
+    background_normal: ""
+    background_down: ""
+
+<FormatterLayout>:
+    spinner: spinner
+    main_label: main_label
+    pick1: pick1
+    jeans: jeans
+    khakis: khakis
+    jeans: jeans
+    sweatpants: sweatpants
+    red_label: red_label
+    red_slider: red_slider
+    blue_label: blue_label
+    blue_slider: blue_slider
+    green_label: green_label
+    green_slider: green_slider
+    color_switcher_label: color_switcher_label
+    switch: switch
+
+
+    orientation: "vertical"
+    rows: 3
+    BoxLayout:
+        rows: 1
+        orientation: "horizontal"
+        Label:
+            id: main_label
+            orientation: "horizontal"
+            font_name: "Arial Rounded Bold copy.ttf"
+            font_size: 50
+            text: "Sammy's Formatter"
+            color: (0,0,0,1)
+
+    BoxLayout:
+        rows: 1
+        orientation: "horizontal"
+
+        Spinner:
+            orientation: "horizontal"
+            id: spinner
+            text: "Fonts"
+            values: ["Comic Sans", "FRIENDS"]
+            on_text: root.spinner.font_name = self.text
+            on_text: root.main_label.font_name = self.text
+            on_text: root.khakis.font_name = self.text
+            on_text: root.jeans.font_name = self.text
+            on_text: root.sweatpants.font_name = self.text
+            on_text: root.pick1.font_name = self.text
+            on_text: root.red_label.font_name = self.text
+            on_text: root.blue_label.font_name = self.text
+            on_text: root.green_label.font_name = self.text
+            on_text: root.color_switcher_label.font_name = self.text
+
+    BoxLayout:
+        rows: 1
+        orientation: "horizontal"
+
+        Label:
+            id: pick1
+            text: "What is your favorite type of pants?"
+            color: 0,0,0,1
+            background_color: 0.5, 0.5, 0.85, 1
+
+    BoxLayout:
+        rows: 1
+        orientation: "horizontal"
+
+        Label:
+            id: khakis
+            text: "Khakis"
+            color: 0,0,0,1
+        CheckBox:
+            group: "pants"
+            on_active: root.main_label.text = root.khakis.text
+
+        Label:
+            id: jeans
+            text: "Blue Jeans"
+            color: 0,0,0,1
+        CheckBox:
+            group: "pants"
+            on_active: root.main_label.text = root.jeans.text
+
+        Label:
+            id: sweatpants
+            text: "Sweatpants"
+            color: 0,0,0,1
+        CheckBox:
+            group: "pants"
+            on_active: root.main_label.text = root.sweatpants.text
+
+    BoxLayout:
+        orientation: "horizontal"
+
+        Label:
+            text: "Color Switcher"
+            id: color_switcher_label
+
+        Switch:
+            id: switch
+            on_active: root.color_switch(self.active)
+
+
+
+    BoxLayout:
+        orientation: "horizontal"
+
+        Label:
+            id: red_label
+            text: "Red Value"
+            color: 220/256, 20/256, 60/256, 1
+
+        Slider:
+            id: red_slider
+            min: 0
+            max: 1
+            #step: 0.005
+            value: red_slider.value
+            on_value: root.change_color(self.value, root.green_slider.value, root.blue_slider.value)
+
+        Label:
+            id: blue_label
+            text: "Blue Value"
+            color: 30/256, 144/256, 255/256, 1
+
+        Slider:
+            id: blue_slider
+            min: 0
+            max: 1
+            #step: 0.005
+            value: blue_slider.value
+            on_value: root.change_color(root.red_slider.value, root.green_slider.value, self.value)
+
+        Label:
+            id: green_label
+            text: "Green Value"
+            color: (34/256, 139/256, 34/256, 1)
+
+        Slider:
+            id: green_slider
+            min: 0
+            max: 1
+            #step: 0.005
+            value: green_slider.value
+            on_value: root.change_color(root.red_slider.value, self.value, root.blue_slider.value)
+
+
+

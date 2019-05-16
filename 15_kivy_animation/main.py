@@ -3,6 +3,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.widget import Widget
 from kivy.clock import Clock
 from kivy.core.window import Window
+from kivy.animation import Animation
 
 
 
@@ -36,6 +37,22 @@ class AniRect(Widget):
     def move_ani(self, x, y):
         self.center_x = x
         self.center_y = y
+        if self.width < 1500:
+            new_width = self.width*2
+        else:
+            new_width = 1
+        anim1 = Animation(center_x=x,
+                          center_y=y,
+                          duration=1,
+                          width=new_width,
+                          transition="out_bounce")
+        if self.width > 1500:
+            self.width = 20
+        anim1.start(self)
+        print(self.width)
+
+
+
 
 
 
