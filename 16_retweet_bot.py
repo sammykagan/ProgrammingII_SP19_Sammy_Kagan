@@ -22,7 +22,6 @@ def my_handler(event, context): # To use AWS Lambda, all of my code has to be in
                           "KamalaHarris", "Hickenlooper", "JayInslee", "amyklobuchar", "WayneMessam", "sethmoulton",
                           "BetoORourke", "TimRyan", "BernieSanders", "ericswalwell", "ewarren", "marwilliamson",
                           "AndrewYang"]
-
     # This list needs to be a current list of candidate accounts. Alphabetization doesn't matter.
 
     def retweet(candidate_account):
@@ -36,8 +35,7 @@ def my_handler(event, context): # To use AWS Lambda, all of my code has to be in
             except:
                 tweet_count += 1
                 print("The " + str(tweet_count) + " most recent tweet from " + str(
-                    candidate_account)  # + " id: " + recent
-                      + " has already been retweeted.")
+                    candidate_account) + " has already been retweeted.")
 
     for i in range(len(candidate_accounts)):
         retweet(candidate_accounts[i])
